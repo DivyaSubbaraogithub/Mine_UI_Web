@@ -1,0 +1,58 @@
+.content {
+  width: 100%;
+  padding: 10px 20px;
+}
+
+.edit {
+  background-color: hwb(120 3% 61%);
+
+}
+
+.delete {
+  background-color: hsl(0, 79%, 35%);
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+button[mat-raised-button] {
+  background-color: #ff4081;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button[mat-raised-button]:hover {
+  background-color: #ff80ab;
+}
+
+.zebra-table .zebra-row:nth-child(even) {
+  background-color: lightgray;
+}
+
+.zebra-table .zebra-row:nth-child(odd) {
+  background-color: white;
+}
+.modal-body
+{
+  background-color: lightsteelblue;
+}
+
+.modal-footer
+{
+background-color: bisque;
+}
+.modal-header
+{
+  background-color: bisque;
+}

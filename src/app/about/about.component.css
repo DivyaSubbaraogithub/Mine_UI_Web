@@ -1,0 +1,14 @@
+ .about-container {
+    background-image: url('/assets/images/beach.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    height: 80vh; 
+    display: flex;
+    flex-direction: column;
+    color: black;
+    text-align: left;
+    font-style: italic;
+    font-size: large;
+  } 
+
+  
